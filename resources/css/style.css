@@ -1,0 +1,44 @@
+/*
+Codeacademy's Build a Website from Scratch: Dasmoto's Arts & Crafts project
+Title: CSS file (style.css)
+Author: Nicholas Chounlapane
+Note from author: I was not sure if <h3> and <p> (with the exception of the required blue text) should receive the
+Helvetica font, since the rest of the text requirements stated it. I applied it to them anyways since that is what it
+looks like in the Spec.
+*/
+* {
+  font-family: Helvetica;
+}
+
+h1 {
+  font-size: 100px;
+  color: khaki;
+  text-align: center;
+  /*To code reviwer: I tried using background: url('./resources/images/pattern.jpeg') but did not work. Is there another solution?*/
+  background: url('file:///C:/Users/Nicholas/Documents/Dev/BuildWebsitesFromScratch/projects/Dasmato_proj/resources/images/pattern.jpeg');
+}
+
+h2 {
+  font-size: 32px;
+  color: white;
+}
+
+a {
+  color: blue;
+}
+
+a, h2, h1 {
+  font-weight: bold;
+}
+
+.brushes {
+  background-color: mediumspringgreen;
+}
+
+.frames {
+  background-color: lightcoral;
+}
+
+.paint {
+  background-color: skyblue;
+}
